@@ -1,0 +1,419 @@
+html {
+    background-color: #191919;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+
+.header {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: -20px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu-item {
+    font-size: 17px;
+    line-height: 27px;
+    margin-right: 40px;
+}
+
+.nav-menu-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu-item:hover a{
+    color: #118DA8;
+}
+
+/* Main styles */
+
+/* Preview */
+
+.preview {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 60px;
+}
+
+.preview-text {
+    justify-self: center;
+    align-self: center;
+}
+
+.preview-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    justify-content: center;
+}
+
+.preview-text-tagline {
+    width: 526px;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: white;
+}
+
+.preview-text-platforms {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.preview-text-platforms-title {
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+}
+
+.platforms-links {
+    list-style-type: none;
+    display: flex;
+    gap: 17px;
+}
+
+.platfrom-links-link a{
+    text-decoration: none;
+}
+
+/* Episodes */
+
+.episodes {
+    margin-top: 93px;
+    display: flex;
+    flex-direction: column;
+}
+
+.episodes-header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.episodes-header-title {
+    color: white;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.episodes-header-button {
+    align-self: center;
+}
+
+.episodes-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.episodes-content-item {
+    display: flex;
+    gap: 53px;
+    padding: 40px;
+}
+
+.episodes-content-text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.episodes-content-button {
+    align-self: start;
+    margin-top: 7px;
+}
+
+.episodes-content-text-number {
+    margin-top: 49px;
+}
+
+.episodes-content-text-title {
+    color: white;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    margin-top: 17.56px;
+}
+
+.episodes-content-text-description {
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 28px;
+    color: #FFF;
+    opacity: .7;
+}
+
+.episode-content-text-button  {
+    align-self: start;
+    margin-top: 18px;
+}
+
+/* About */
+
+.about {
+    margin-top: 260px;
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #118DA8;
+    color: white;
+    width: 112px;
+    height: 112px;
+    font-size: 72px;
+    align-self: start;
+}
+
+.about-content-description {
+    margin-top: 20px;
+}
+
+.about-content-title {
+    color: white;
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: 2.88px;
+}
+
+.about-content-info-text {
+    opacity: .7;
+    color: white;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.about-content-info-text:nth-of-type(odd) {
+    margin-top: 28px;
+}
+
+.about-content-info-text:nth-of-type(even) {
+    margin-top: 33px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    gap: 227px;
+    display: flex;
+    margin-top: 200px;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 75px;
+}
+
+.subscribe-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-text-description {
+
+}
+
+.subscribe-text-title {
+    width: 431px;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: white;
+}
+
+.subscribe-content {
+    width: 100%;
+}
+
+.subscribe-content-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-content-form-input {
+    outline: none;
+    border: none;
+    background-origin: none;
+    background: #191919;
+    padding-top: 26px;
+    padding-bottom: 27px;
+    padding-left: 19px;
+    border-radius: 6px;
+}
+
+.subscribe-content-form-input:focus {
+    outline: none;
+    border: none;
+}
+
+.subscribe-content-form-input::placeholder {
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #fff;
+    opacity: .7;
+}
+
+.subscribe-content-form-input:nth-child(2) {
+    margin-top: 20px;
+}
+
+.subscribe-content-button {
+    margin-top: 20px;
+    align-self: start;
+}
+
+/* Reviews */
+
+.reviews {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 321px 364px;
+    gap: 16px;
+}
+
+.reviews-item {
+    padding-left: 50px;
+    padding-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-item-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.reviews-item-title {
+    width: 310px;
+    color: white;
+    margin-top: 21px;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.reviews-item-author {
+    margin-top: 19px;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: white;
+    opacity: .7;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 200px;
+    display: flex;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-socials-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-lists {
+    margin-left: 250px;
+    display: flex;
+    gap: 120px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-list-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.footer-links {
+    margin-left: 20px;
+}
+
+/* Common styles */
+
+button {
+    border: 0;
+    outline: none;
+}
+
+.description-text {
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.custom-button {
+    font-size: 17px;
+    line-height: 27px;
+    background-color: #118DA8;
+    color: white;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.secondary-button {
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+    background: #191919;
+}
+
+.dark-circled {
+    background-color: #000;
+    border-radius: 32px;
+}
+
+.circled {
+    border-radius: 50%;
+}
